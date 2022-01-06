@@ -8,6 +8,8 @@ View the GEL contract on Etherscan [here](https://etherscan.io/address/0x15b7c0c
 
 ## Gelato Ops
 
+**Note:** If you have an access restriction for your smart contract function and want to whitelist Gelato as a `msg.sender`, take the `PokeMe` address, as it will be the caller of your contract.
+
 ### Mainnet
 
 | Contract       | Address                                    |
