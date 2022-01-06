@@ -32,6 +32,14 @@ View the GEL contract on Etherscan [here](https://etherscan.io/address/0x15b7c0c
 | PokeMe         | 0x6EDe1597c05A0ca77031cBA43Ab887ccf24cd7e8 |
 | TaskTreasury   | 0x6c3224f9b3feE000A444681d5D45e4532D5BA531 |
 
+### Arbitrum
+
+| Contract       | Address                                    |
+| -------------- | ------------------------------------------ |
+| Gelato Network | 0x4775aF8FEf4809fE10bf05867d2b038a4b5B2146 |
+| PokeMe         | 0xB3f5503f93d5Ef84b06993a1975B9D21B962892F |
+| TaskTreasury   | 0x527a819db1eb0e34426297b03bae11F2f8B3A19E |
+
 ### Avalanche
 
 | Contract       | Address                                    |
