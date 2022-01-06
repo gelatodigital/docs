@@ -1,8 +1,8 @@
 # Fee payment options
 
-### Gelato Account
+### Gelato Balance
 
-Paying transaction fees with the Gelato Account is the easiest. Simply deposit any ERC20 tokens that you prefer (only available for Ethereum Mainnet). Every time an execution occurs, your Gelato Account will be charged.&#x20;
+Paying transaction fees with the Gelato Balance is the easiest. Simply deposit some tokens of the network you're on. Every time an execution occurs, your Gelato Balance will be used to pay for the gas and Gelato fees.&#x20;
 
 
 
