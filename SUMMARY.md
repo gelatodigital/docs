@@ -14,15 +14,19 @@
 
 ## Guides
 
-* [What tasks can be automated](guides/what-tasks-can-be-automated.md)
 * [Tutorial](guides/tutorial/README.md)
   * [Written Tutorial](guides/tutorial/written-tutorial.md)
   * [Interactive Tutorial](guides/tutorial/interactive-tutorial.md)
+* [What tasks can be automated](guides/what-tasks-can-be-automated.md)
 * [Define function inputs](guides/define-function-inputs.md)
 * [Writing a resolver](guides/writing-a-resolver/README.md)
   * [Smart contract resolver](guides/writing-a-resolver/smart-contract-resolver.md)
   * [Polywrap resolver](guides/writing-a-resolver/polywrap-resolver.md)
 * [Fee payment options](guides/fee-payment-options.md)
+* [Submitting Task](guides/submitting-task/README.md)
+  * [Gelato Ops UI](guides/submitting-task/written-tutorial.md)
+  * [Smart Contract](guides/submitting-task/smart-contract.md)
+  * [Ethers.js](guides/submitting-task/ethers.js.md)
 
 ## Real world examples
 

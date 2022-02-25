@@ -1,68 +1,30 @@
 # Written Tutorial
 
-To submit a task, head to the [Gelato Ops](https://app.gelato.network) UI.
+Here is a checklist on how you can automate your smart contract.
 
-![](<../../.gitbook/assets/Screenshot 2021-11-07 at 12.32.48 PM.png>)
-
-Click on New Task.
-
-![](<../../.gitbook/assets/Screenshot 2021-11-07 at 12.33.25 PM.png>)
-
-* Choose a name for your task. (e.g. "Harvest vault every 10 minutes")
-
-## Execution contract details
-
-![](<../../.gitbook/assets/Screenshot 2021-11-07 at 12.36.09 PM.png>)
-
-* Fill in the contract address of the function you want to automate.
-* Select the function you want to automate.&#x20;
-
-![](<../../.gitbook/assets/Screenshot 2021-11-07 at 12.37.01 PM.png>)
-
-If your function accepts arguments
-
-* Choose how you want your arguments to be passed.&#x20;
-
-If you are not sure about this, see [define-function-inputs.md](../define-function-inputs.md "mention")
-
-## When to execute
-
-### Pre-define inputs
-
-![](<../../.gitbook/assets/Screenshot 2021-11-07 at 10.09.47 PM.png>)
-
-With pre-defined inputs chosen, you will see two options.
-
-**Time** - Task will be recurringly executed by the time given by the user with an interval.
-
-**Whenever possible** - Task will be executed continuously whenever the transaction will not fail.
-
-{% hint style="warning" %}
-Make sure the function can only be executed from time to time if "Whenever possible" is selected
+{% hint style="info" %}
+If you have any questions at any point in time, feel free to reach out to us on [**Telegram**](https://t.me/therealgelatonetwork) or [**Discord**](https://discord.gg/ApbA39BKyJ)
 {% endhint %}
 
-### Dynamic inputs via resolver
+### 1. Prepare your Smart contract to be automated
 
-![](<../../.gitbook/assets/Screenshot 2021-11-07 at 10.18.39 PM.png>)
+Find out the smart contract address and the function you would want to automate. There are a few restrictions that can prevent the function from being called by Gelato. Check out [here](../what-tasks-can-be-automated.md).
 
-If you are using a resolver, fill in the resolver address that is deployed.
+### 2. Define the condition
 
-## Paying for fees
+You can tell Gelato exactly when do you want your function to be called. For complex cases, you would need a resolver. Check out [here](../writing-a-resolver/).
 
-![](<../../.gitbook/assets/Screenshot 2021-11-07 at 10.28.25 PM.png>)
+### 3. Define your payment method
 
-Choose how you would like to pay for the execution fees for your task.&#x20;
+Gelato allows task creators to pay executors before or during the execution depending on their needs. Check out [here](../fee-payment-options.md).
 
-Deposit some tokens if "Gelato Balance" is chosen.
+### 4. Submitting your task
 
-If you are not sure about this, see [fee-payment-options.md](../fee-payment-options.md "mention") .
+There are different ways for you to submit your task as well. Check out [here](../submitting-task/).
 
 
 
-## Done!
 
-Once your task creation transaction is mined, you will be redirected to the Task Page.
 
-![](<../../.gitbook/assets/Screenshot 2021-11-07 at 10.32.53 PM.png>)
 
-Here you can see details and monitor your task.&#x20;
+
