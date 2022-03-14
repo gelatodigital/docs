@@ -2,39 +2,37 @@
 
 ### Gelato Balance
 
-Paying transaction fees with the Gelato Balance is the easiest. Simply deposit some tokens of the network you're on. Every time an execution occurs, your Gelato Balance will be used to pay for the gas and Gelato fees.&#x20;
-
-
+Paying transaction fees with the Gelato Balance is the easiest. Simply deposit some tokens of the network you're on. Every time an execution occurs, your Gelato Balance will be used to pay for the gas and Gelato fees.
 
 ### Transaction pays itself
 
-You can also choose not to pre-deposit funds into your Gelato Account and have your executions pay for themselves.&#x20;
+You can also choose not to pre-deposit funds into your Gelato Account and have your executions pay for themselves.
 
-This can be done by inheriting **** [**PokeMeReady**](https://github.com/gelatodigital/poke-me/blob/master/contracts/ExampleWithoutTreasury/PokeMeReady.sol)**.**&#x20;
+This can be done by inheriting [**O**psReady](https://github.com/gelatodigital/ops/blob/master/contracts/Gelato/OpsReady.sol)**.**
 
-{% code title="PokeMeReady.sol" %}
+{% code title="OpsReady.sol" %}
 ```solidity
 import {
     SafeERC20,
     IERC20
 } from "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 
-interface IPokeMe {
+interface IOps {
     function gelato() external view returns (address payable);
 }
 
-abstract contract PokeMeReady {
-    address public immutable pokeMe;
+abstract contract OpsReady {
+    address public immutable ops;
     address payable public immutable gelato;
     address public constant ETH = 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE;
 
-    constructor(address _pokeMe) {
-        pokeMe = _pokeMe;
-        gelato = IPokeMe(_pokeMe).gelato();
+    constructor(address _ops) {
+        ops = _ops;
+        gelato = IOps(_ops).gelato();
     }
 
-    modifier onlyPokeMe() {
-        require(msg.sender == pokeMe, "PokeMeReady: onlyPokeMe");
+    modifier onlyOps() {
+        require(msg.sender == ops, "OpsReady: onlyOps");
         _;
     }
 
@@ -53,7 +51,7 @@ abstract contract PokeMeReady {
 The function which will be automated needs to have the ability to pay Gelato whenever executors call it. Below is an example of this function.
 
 ```solidity
-    function increaseCount(uint256 amount) external onlyPokeMe {
+    function increaseCount(uint256 amount) external onlyOps {
         require(
             ((block.timestamp - lastExecuted) > 180),
             "Counter: increaseCount: Time not elapsed"
@@ -62,7 +60,7 @@ The function which will be automated needs to have the ability to pay Gelato whe
         uint256 fee;
         address feeToken;
 
-        (fee, feeToken) = IPokeMe(pokeMe).getFeeDetails();
+        (fee, feeToken) = IOps(ops).getFeeDetails();
 
         _transfer(fee, feeToken);
 
@@ -72,8 +70,8 @@ The function which will be automated needs to have the ability to pay Gelato whe
     }
 ```
 
-In the `increaseCount` function, we use `_transfer` inherited from `PokeMeReady` to pay Gelato.
+In the `increaseCount` function, we use `_transfer` inherited from `OpsReady` to pay Gelato.
 
-`_transfer` has two parameters, `fee` and `feeToken` which has to be queried from the `PokeMe` contract by using `getFeeDetails()`
+`_transfer` has two parameters, `fee` and `feeToken` which has to be queried from the `Ops` contract by using `getFeeDetails()`
 
 `feeToken` is set when creating your task on the Gelato Ops UI.
