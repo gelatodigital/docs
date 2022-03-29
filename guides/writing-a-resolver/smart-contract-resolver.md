@@ -37,7 +37,7 @@ contract CounterResolver is IResolver {
 1. bool `canExec` : wether Gelato should execute the task.
 2. bytes `execPayload` :  data that executors should use for the execution.
 
-You can find the code for `Counter` and `CounterResolver` [here](https://github.com/gelatodigital/poke-me/tree/master/contracts/ExampleWithTreasury).
+You can find the code for `Counter` and `CounterResolver` [here](https://github.com/gelatodigital/ops/tree/master/contracts/examples/withTreasury).
 
 **Resolvers can also accept arguments.** This is useful as you can potentially "re-use" your resolver when creating multiple tasks.&#x20;
 
