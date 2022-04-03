@@ -8,17 +8,17 @@ description: Web3's Automation Protocol
 
 ## What is Gelato Network?
 
-[**Gelato Network**](http://gelato.network) is a decentralized network of bots used by web3 developers to automate smart contract executions on public EVM compatible blockchains including Ethereum, Polygon, Fantom, Arbitrum, Binance Smart Chain and Avalanche. \
+[**Gelato Network**](http://gelato.network) is a decentralized network of bots used by web3 developers to automate smart contract executions on public EVM compatible blockchains including Ethereum, Polygon, Fantom, Arbitrum, BNB Chain, and Avalanche. \
 \
 Using Gelato, developers can outsource their web3 DevOps needs in order to focus exclusively on building their core product.&#x20;
 
 **Why do I need a decentralized Network of bots to automate smart contracts?**
 
-Before Gelato, developers would have to build custom bots related to each specific smart contract use case they wanted to automate. Building, running, and maintaining use case-specific bots to service these systems requires a substantial amount of time & usually leads to the development team becoming the central point of failure within their system. If their bot goes down, the whole application halts.&#x20;
+Before Gelato, developers would have to build custom bots related to each specific smart contract use case they wanted to automate. Building, running, and maintaining the use case specific bots to service these systems require a substantial amount of time & usually leads to the development team becoming the central point of failure within their system. If their bot goes down, the whole application halts.&#x20;
 
 ## Vision
 
-The vision of Gelato  is to solve the issues of lacking reliability, sophistication, and centralization around dapps that want to offer automatic smart contract executions within and across multiple blockchain networks in the web3 ecosystem. It was created to replace legacy centralized keeper systems with an easy to use interface and reliable infrastructure to power the next generation of DeFi, NFT and gaming application in web3.&#x20;
+The vision of Gelato is to solve the issues of lacking reliability, sophistication, and centralization around dapps that want to offer automatic smart contract executions within and across multiple blockchain networks in the web3 ecosystem. It was created to replace legacy centralized keeper systems with an easy-to-use interface and reliable infrastructure to power the next generation of DeFi, NFT, and gaming applications in web3.&#x20;
 
 ## **Users of Gelato**
 
@@ -33,8 +33,12 @@ We believe everything can be and will be automated. We've been working with the 
 * [QuickSwap](http://quickswap.exchange): One of the largest DEXs on Polygon
 * [QiDao](https://app.mai.finance): Interest-free lending protocol on Polygon
 * [ETH-A Lend](https://www.ethalend.org): Yield Aggregator on Polygon
+* [PancakeSwap](https://pancakeswap.finance): The #1 AMM on BNB Chain with over $100 million daily trading volume
+* [Liquid Driver](https://www.liquiddriver.finance): The first liquidity mining dapp providing liquidity-as-a-service on Fantom
+* [Connext](https://www.connext.network): The leading protocol for fast, fully noncustodial transfers and contract calls between EVM-compatible chains
+* [Beefy Finance](https://beefy.com): A decentralized, multi-chain yield optimizer platform on Polygon, BNB Chain, Fantom, Avalanche, and 10 other blockchain networks
 
-and many more...
+and [many more](https://gelato-network.notion.site/Gelato-Ecosystem-e2952b9e56064828ad3d3bf49d3f85f2)...
 
 ## **Useful Links**:
 
