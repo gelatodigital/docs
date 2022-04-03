@@ -18,9 +18,9 @@ Monitoring Uniswap v3 LP positions can be a very time-consuming and complex task
 
 The advantage of this includes that users can sit back and relax as all the difficulties that come with monitoring LP positions are taken care of. In addition, since [G-UNI](https://medium.com/gelato-network/lp-like-a-pro-in-uni-v3-auto-rebalancing-2b8f98aa81ab) mints an ERC-20 token, it has the capability to be used for liquidity mining schemes to incentivize holders to provide concentrated liquidity around certain price ranges.&#x20;
 
-### Liquidation Protection for Debt Position on KeeperDAO and Cono Finance
+### Liquidation Protection for Debt Position on KeeperDAO
 
-On both projects, KeeperDAO and [Cono Finance](https://www.cono.finance/assets), every time collateral prices start to decline, Gelato automates the repayment user’s debt position on lending protocols such as Aave9 or Compound, to avoid costly collateral liquidations. At the time of the native integration going live, KeeperDAO had $240 million in TVL, now secured via Gelato’s automation infrastructure.
+On KeeperDAO, every time collateral prices start to decline, Gelato automates the repayment user’s debt position on lending protocols, to avoid costly collateral liquidations. At the time of the native integration going live, KeeperDAO had $240 million in TVL, now secured via Gelato’s automation infrastructure.
 
 ### Gelato Ops: Web3's Multi-Chain Smart Contract Automation Hub
 
