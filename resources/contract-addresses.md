@@ -63,7 +63,13 @@ View the GEL contract on Etherscan [here](https://etherscan.io/address/0x15b7c0c
 | TaskTreasury   | 0x63C51b1D80B209Cf336Bec5a3E17D3523B088cdb |
 | Twap Oracle    | 0xf723308cE272f067Bc35d2129aceF13beDEB3F2C |
 
+### Gnosis
 
+| Gelato Network | 0x29b6603D17B9D8f021EcB8845B6FD06E1Adf89DE |
+| -------------- | ------------------------------------------ |
+| Ops            | 0x8aB6aDbC1fec4F18617C9B889F5cE7F28401B8dB |
+| TaskTreasury   | 0x95f4538C3950CE0EF5821f2049aE2aC5cCade68D |
+| Twap Oracle    | 0x03daA9592355b37D777De30De286087DC4f1C788 |
 
 ## Staging
 
