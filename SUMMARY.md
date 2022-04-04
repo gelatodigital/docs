@@ -33,6 +33,7 @@
 * [Harvesting vaults](real-world-examples/harvesting-vaults.md)
 * [Rewards payout](real-world-examples/rewards-payout.md)
 * [Petting Aavegotchis](real-world-examples/petting-aavegotchis.md)
+* [TWAP Updates](real-world-examples/twap-updates.md)
 
 ## Resources
 

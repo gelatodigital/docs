@@ -25,6 +25,7 @@ View the GEL contract on Etherscan [here](https://etherscan.io/address/0x15b7c0c
 | Gelato Network | 0x7598e84B2E114AB62CAB288CE5f7d5f6bad35BbA |
 | Ops            | 0x527a819db1eb0e34426297b03bae11F2f8B3A19E |
 | TaskTreasury   | 0xA8a7BBe83960B29789d5CB06Dcd2e6C1DF20581C |
+| Twap Oracle    | 0x4815B357262CDDedCECc6c34f717B51ad69FdFb4 |
 
 ### Fantom
 
@@ -33,6 +34,7 @@ View the GEL contract on Etherscan [here](https://etherscan.io/address/0x15b7c0c
 | Gelato Network | 0xebA27A2301975FF5BF7864b99F55A4f7A457ED10 |
 | Ops            | 0x6EDe1597c05A0ca77031cBA43Ab887ccf24cd7e8 |
 | TaskTreasury   | 0x6c3224f9b3feE000A444681d5D45e4532D5BA531 |
+| Twap Oracle    | 0x77c52647034f80eB18b0aDED1cFDc5Be542F34B3 |
 
 ### Arbitrum
 
@@ -41,6 +43,7 @@ View the GEL contract on Etherscan [here](https://etherscan.io/address/0x15b7c0c
 | Gelato Network | 0x4775aF8FEf4809fE10bf05867d2b038a4b5B2146 |
 | Ops            | 0xB3f5503f93d5Ef84b06993a1975B9D21B962892F |
 | TaskTreasury   | 0x527a819db1eb0e34426297b03bae11F2f8B3A19E |
+| Twap Oracle    | 0xC8aE2A55bC4Bf3280a38C76077A43D4D4a086272 |
 
 ### Avalanche
 
@@ -49,6 +52,7 @@ View the GEL contract on Etherscan [here](https://etherscan.io/address/0x15b7c0c
 | Gelato Network | 0x7C5c4Af1618220C090A6863175de47afb20fa9Df |
 | Ops            | 0x8aB6aDbC1fec4F18617C9B889F5cE7F28401B8dB |
 | TaskTreasury   | 0x63C51b1D80B209Cf336Bec5a3E17D3523B088cdb |
+| Twap Oracle    | 0x74C1f8Ce8f2c6d6C8946d8eEC15374f9A9C57F3A |
 
 ### Bsc
 
@@ -57,6 +61,7 @@ View the GEL contract on Etherscan [here](https://etherscan.io/address/0x15b7c0c
 | Gelato Network | 0x7C5c4Af1618220C090A6863175de47afb20fa9Df |
 | Ops            | 0x527a819db1eb0e34426297b03bae11F2f8B3A19E |
 | TaskTreasury   | 0x63C51b1D80B209Cf336Bec5a3E17D3523B088cdb |
+| Twap Oracle    | 0xf723308cE272f067Bc35d2129aceF13beDEB3F2C |
 
 
 
