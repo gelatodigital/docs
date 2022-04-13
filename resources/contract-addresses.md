@@ -97,3 +97,10 @@ View the GEL contract on Etherscan [here](https://etherscan.io/address/0x15b7c0c
 | Ops            | 0xc1C6805B857Bef1f412519C4A842522431aFed39 |
 | TaskTreasury   | 0xA0Cc0CC82d945D96D4F481A62C968AfCCea1C54F |
 
+### Mumbai
+
+| Contract       | Address                                    |
+| -------------- | ------------------------------------------ |
+| Gelato Network | 0x25aD59adbe00C2d80c86d01e2E05e1294DA84823 |
+| Ops            | 0xB3f5503f93d5Ef84b06993a1975B9D21B962892F |
+| TaskTreasury   | 0x527a819db1eb0e34426297b03bae11F2f8B3A19E |
