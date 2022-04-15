@@ -8,7 +8,7 @@ Paying transaction fees with the Gelato Balance is the easiest. Simply deposit s
 
 You can also choose not to pre-deposit funds into your Gelato Account and have your executions pay for themselves.
 
-This can be done by inheriting [**O**psReady](https://github.com/gelatodigital/ops/blob/master/contracts/Gelato/OpsReady.sol)**.**
+This can be done by inheriting [**O**psReady](https://github.com/gelatodigital/ops/blob/master/contracts/vendor/gelato/OpsReady.sol)**.**
 
 {% code title="OpsReady.sol" %}
 ```solidity
