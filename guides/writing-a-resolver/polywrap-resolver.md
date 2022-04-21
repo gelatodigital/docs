@@ -3,7 +3,7 @@
 Before we start, it is best to checkout Polywrap's [documentation](https://docs.polywrap.io/getting-started/what-is-polywrap) to get some insight into Polywrap.
 
 {% hint style="warning" %}
-Polywrap resolver is still in Beta!
+Polywrap resolver is a WIP. It is not possible to submit tasks using Polywrap resolvers yet.
 {% endhint %}
 
 Begin by cloning this [Polywrap resolver template](https://github.com/gelatodigital/gelato-polywrap-template).
